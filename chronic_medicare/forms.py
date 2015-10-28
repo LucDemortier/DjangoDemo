@@ -1,5 +1,5 @@
 from django import forms
-from .models import AnalysisFile, ChronicConditionLinearRegression
+from .models import AnalysisFile
 from .constants import CHRONIC_COLUMN_NAMES
 
 

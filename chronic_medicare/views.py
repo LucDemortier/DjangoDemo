@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from .models import ChronicConditionRegression
+from .models import ChronicConditionRegression, AnalysisFile
 from .forms import ChronicConditionAnalysisQueryForm
 from .regression import CSVRegression, DEFAULT_TARGET
 
