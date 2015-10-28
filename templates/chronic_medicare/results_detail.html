@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{{ result }}</h1>
+    {{ result.summary_html|safe }}
+    {{ result.plot_html|safe }}
+    <a href="{% url 'chronic:query' %}">Run new query</a>
+    <a href="{% url 'chronic:results_list' %}">Return to list</a>
+    <a href="{% url 'chronic:results_detail' result.pk|add:1 %}">See next result</a>
+{% endblock %}
