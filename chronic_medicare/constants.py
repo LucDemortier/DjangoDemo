@@ -1,6 +1,6 @@
 CHRONIC_COLUMN_NAMES = [
-    ('BENE_SEX_IDENT_CD', 'BENE_SEX_IDENT_CD'),
-    ('BENE_AGE_CAT_CD', 'BENE_AGE_CAT_CD'),
+    ('BENE_SEX_IDENT_CD', 'sex'),
+    ('BENE_AGE_CAT_CD', 'age'),
     ('CC_ALZHDMTA', 'CC_ALZHDMTA'),
     ('CC_CANCER', 'CC_CANCER'),
     ('CC_CHF', 'CC_CHF'),
